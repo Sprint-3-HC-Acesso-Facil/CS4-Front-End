@@ -9,7 +9,7 @@ export function Contato() {
   const [enviandoFormulario, setEnviandoFormulario] = useState(false)
   const [mensagemSucesso, setMensagemSucesso] = useState('')
 
-  // useEstadoLocal para salvar rascunho do formulário
+  // useEstadoLocal para salvar rascunho do formulári
   const [rascunhoFormulario, setRascunhoFormulario] = useEstadoLocal<Partial<DadosFormularioContato>>('rascunho-contato', {})
 
   // React Hook Form
