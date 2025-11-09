@@ -6,7 +6,7 @@ import type { MembroEquipe } from '@/tipos'
 const membrosEquipe: MembroEquipe[] = [
   {
     id: '1',
-    nome: 'Gustavo Tavares da Silv',
+    nome: 'Gustavo Tavares da Silva',
     rm: '562827',
     turma: '1TDSPI',
     funcao: 'Java e Chatbot',
