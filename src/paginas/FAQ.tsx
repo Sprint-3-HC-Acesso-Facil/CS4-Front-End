@@ -8,7 +8,7 @@ const dadosFAQ: ItemFAQ[] = [
   {
     id: '1',
     categoria: 'Problemas de Login',
-    pergunta: 'Não consigo acessar minha conta. O que devo fazer',
+    pergunta: 'Não consigo acessar minha conta. O que devo fazer?',
     resposta: 'Verifique se você está inserindo o CPF e a senha corretamente. Caso continue com problemas, clique em "Esqueci senha" na página de login para redefinir sua senha ou entre em contato com nosso suporte.'
   },
   {
