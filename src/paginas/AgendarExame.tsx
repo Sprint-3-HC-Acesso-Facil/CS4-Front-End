@@ -24,7 +24,7 @@ export function AgendarExame() {
   const [successMessage, setSuccessMessage] = useState<string | null>(null);
 
   const convenios = [
-    { value: 'sus', label: 'SUS' },
+    { value: 'sus', label: 'SU' },
     { value: 'amil', label: 'Amil' },
     { value: 'bradesco', label: 'Bradesco Saúde' },
     { value: 'unimed', label: 'Unimed' },
