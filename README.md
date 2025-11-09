@@ -86,7 +86,7 @@ O projeto utiliza o Tailwind CSS para garantir a **responsividade** em diferente
 O controle de versão do projeto foi realizado utilizando Git e GitHub.
 
 **Link do Repositório:**
-[https://github.com/Sprint-3-HC-Acesso-Facil/CS4-Front-End](https://github.com/Sprint-3-HC-Acesso-Facil/CS4-Front-End)
+[https://github.com/Sprint-3-HC-Acesso-Facil/CS4-Front-End.git](https://github.com/Sprint-3-HC-Acesso-Facil/CS4-Front-End.git)
 
 **Nota:** O código foi comitado localmente. Devido a problemas de autenticação no ambiente de execução, o *push* para o repositório acima deve ser realizado manualmente pelo professor ou responsável, utilizando o código fornecido neste pacote ZIP.
 
