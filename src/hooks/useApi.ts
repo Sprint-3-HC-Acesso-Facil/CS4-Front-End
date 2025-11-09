@@ -191,7 +191,7 @@ export const api = {
       return await res.json();
     } catch (e) {
       console.warn('Sucesso no POST de atendimento, mas falha ao ler JSON de resposta. Retornando objeto mockado.');
-      return { codigo: 0, protocolo: 'MOCK', clienteId: atendimento.clienteCodigo, especialistaId: atendimento.especialistaCodigo, tipo: atendimento.tipo, dataAtendimento: atendimento.dataAtendimento, status: 'AGENDADO' };
+      return { codigo: 0, protocolo: 'MOCK', clienteId: atendimento.clienteCodigo, especialistaId: atendimento.especialistaCodigo, tipo: atendimento.tipo, dataAtendimento: atendimento.dataAtendimento, horario: atendimento.horario, status: 'AGENDADO' };
     }
   },
 
