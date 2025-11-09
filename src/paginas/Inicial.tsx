@@ -129,7 +129,7 @@ export function Inicial() {
             <div className="bg-white rounded-lg shadow-md hover:shadow-lg transition-all duration-300 p-6">
               <div className="text-center mb-6">
                 <img 
-                  src="/src/assets/image/logohc.png" 
+                  src="/images/logohc.png" 
                   alt="FMUSP" 
                   className="h-12 sm:h-14 lg:h-16 w-auto mx-auto mb-4"
                 />
@@ -181,7 +181,7 @@ export function Inicial() {
               <div className="text-center">
                 <p className="texto-responsivo mb-4">Acesse sua conta pela</p>
                 <img 
-                  src="/src/assets/image/govbrlogo.webp" 
+                  src="/images/govbrlogo.webp" 
                   alt="gov.br" 
                   className="h-8 sm:h-10 lg:h-12 w-auto mx-auto mb-4"
                 />

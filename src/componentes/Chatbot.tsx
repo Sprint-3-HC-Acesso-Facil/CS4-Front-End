@@ -82,7 +82,7 @@ export function Chatbot() {
             <div className="flex items-center space-x-2">
               <div className="w-12 h-12 rounded-full overflow-hidden bg-white p-1">
                 <img
-                  src={isAnimated ? '/src/assets/image/assistente/assistente-falando.gif' : '/src/assets/image/assistente/assistente-estatico.png'}
+                  src={isAnimated ? '/images/assistente/assistente-falando.gif' : '/images/assistente/assistente-estatico.png'}
                   alt="Assistente Digital"
                   className="w-full h-full object-cover rounded-full"
                 />
@@ -101,7 +101,7 @@ export function Chatbot() {
           <div className="bg-blue-600 text-white p-4 rounded-t-lg flex items-center space-x-3">
             <div className="w-10 h-10 rounded-full overflow-hidden bg-white p-1">
               <img
-                src={isAnimated ? '/src/assets/image/assistente/assistente-falando.gif' : '/src/assets/image/assistente/assistente-estatico.png'}
+                src={isAnimated ? '/images/assistente/assistente-falando.gif' : '/images/assistente/assistente-estatico.png'}
                 alt="Assistente Digital"
                 className="w-full h-full object-cover rounded-full"
               />
@@ -122,7 +122,7 @@ export function Chatbot() {
                 {message.isBot && (
                   <div className="w-10 h-10 rounded-full overflow-hidden bg-blue-600 p-1 mr-2 flex-shrink-0">
                     <img
-                      src={isAnimated ? '/src/assets/image/assistente/assistente-falando.gif' : '/src/assets/image/assistente/assistente-estatico.png'}
+                      src={isAnimated ? '/images/assistente/assistente-falando.gif' : '/images/assistente/assistente-estatico.png'}
                       alt="Assistente"
                       className="w-full h-full object-cover rounded-full"
                     />

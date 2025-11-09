@@ -30,7 +30,7 @@ export function Cabecalho() {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <img 
-              src="/src/assets/image/logohc.png" 
+              src="/images/logohc.png" 
               alt="Logo FMUSP" 
               className="h-8 sm:h-10 lg:h-12 w-auto"
             />

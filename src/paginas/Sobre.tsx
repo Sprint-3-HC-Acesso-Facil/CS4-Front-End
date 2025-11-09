@@ -35,12 +35,12 @@ export function Sobre() {
               </div>
               <div>
                 <img 
-                  src="/src/assets/image/hospital/fachada_hc.jpg" 
+                  src="/images/hospital/fachada_hc.jpg" 
                   alt="Fachada do Hospital das Clínicas" 
                   className="w-full h-64 object-cover rounded-lg shadow-md"
                   onError={(e) => {
                     // Fallback para imagem alternativa se não carregar
-                    e.currentTarget.src = '/src/assets/image/hospital/hcentrada.jpg'
+                    e.currentTarget.src = '/images/hospital/hcentrada.jpg'
                   }}
                 />
               </div>

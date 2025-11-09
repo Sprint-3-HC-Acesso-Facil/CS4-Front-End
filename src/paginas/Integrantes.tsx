@@ -11,7 +11,7 @@ const membrosEquipe: MembroEquipe[] = [
     turma: '1TDSPI',
     funcao: 'Java e Chatbot',
     descricao: 'Especialista em desenvolvimento Java e criação de chatbots inteligentes. Responsável pela implementação de soluções backend robustas e sistemas de conversação automatizada.',    foto: 
-'/src/assets/image/integrantes/Gustavo.jpeg',
+'/images/integrantes/Gustavo.jpeg',
     github: 'https://github.com/gustavaress',
     linkedin: 'https://www.linkedin.com/in/gustavo-tavares-da-silva-b6180a220/'
   },
@@ -22,7 +22,7 @@ const membrosEquipe: MembroEquipe[] = [
     turma: '1TDSPI',
     funcao: 'Business Model e Python',
     descricao: 'Especialista em modelagem de negócios e desenvolvimento Python. Foca na análise de requisitos, arquitetura de soluções e desenvolvimento de APIs eficientes.',
-    foto: '/src/assets/image/integrantes/Felllipe.jpg',
+    foto: '/images/integrantes/Felllipe.jpg',
     github: 'https://github.com/FellipeCostaOliveira',
     linkedin: 'https://www.linkedin.com/in/fellipe-costa-aab114355/'
   },
@@ -33,7 +33,7 @@ const membrosEquipe: MembroEquipe[] = [
     turma: '1TDSPI',
     funcao: 'Front-end e Banco de Dados',
     descricao: 'Desenvolvedor especializado em tecnologias front-end modernas e administração de banco de dados. Responsável pela experiência do usuário e gestão de dados.',
-    foto: '/src/assets/image/integrantes/Felype.jpg',
+    foto: '/images/integrantes/Felype.jpg',
     github: 'https://github.com/FelypeMaschio',
     linkedin: 'https://www.linkedin.com/in/felype-ferreira-maschio-735842286/'
   }
@@ -56,7 +56,7 @@ function CartaoMembro({ membro, destacado }: CartaoMembroProps) {
           className="w-24 h-24 sm:w-32 sm:h-32 rounded-full mx-auto mb-4 object-cover border-4 border-gray-200"
           onError={(e) => {
             // Fallback para imagem padrão se a imagem não carregar
-            e.currentTarget.src = '/src/assets/image/placeholder/placeholder-person.png'
+            e.currentTarget.src = '/images/placeholder/placeholder-person.png'
           }}
         />
         <h3 className="text-lg sm:text-xl font-semibold text-gray-800 mb-2">
