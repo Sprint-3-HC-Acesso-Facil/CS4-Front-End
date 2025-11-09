@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom'
 import { Calendar, Stethoscope, FileText, Video, Heart } from 'lucide-react'
 
+// Importações de imagens corrigidas
+import consultaIcon from '../assets/image/icons/consulta-icon.png'
+import exameIcon from '../assets/image/icons/exame-icon.png'
+import telemedicinaIcon from '../assets/image/icons/telemedicina-icon.png'
+import patIcon from '../assets/image/icons/pat-icon.png'
+
 export function Agendamentos() {
   const opcoesAgendamento = [
     { 
       nome: 'Agendar consulta', 
-      icone: '/src/assets/image/icons/consulta-icon.png', 
+      icone: consultaIcon, 
       iconeLucide: Stethoscope,
       link: '/agendamentos/consulta',
       descricao: 'Agende sua consulta médica com especialistas',
@@ -13,7 +19,7 @@ export function Agendamentos() {
     },
     { 
       nome: 'Agendar exame', 
-      icone: '/src/assets/image/icons/exame-icon.png', 
+      icone: exameIcon, 
       iconeLucide: FileText,
       link: '/agendamentos/exame',
       descricao: 'Marque seus exames laboratoriais e de imagem',
@@ -22,7 +28,7 @@ export function Agendamentos() {
 
     { 
       nome: 'Telemedicina', 
-      icone: '/src/assets/image/icons/telemedicina-icon.png', 
+      icone: telemedicinaIcon, 
       iconeLucide: Video,
       link: '/agendamentos/telemedicina',
       descricao: 'Consultas médicas online por videoconferência',
@@ -30,7 +36,7 @@ export function Agendamentos() {
     },
     { 
       nome: 'Solicitar PAT', 
-      icone: '/src/assets/image/icons/pat-icon.png', 
+      icone: patIcon,
       iconeLucide: Heart,
       link: '/agendamentos/pat',
       descricao: 'Programa de Apoio ao Trabalhador',
@@ -68,7 +74,6 @@ export function Agendamentos() {
                     alt={opcao.nome} 
                     className="w-12 h-12 object-contain"
                     onError={(e) => {
-                      // Se a imagem não carregar, esconder e mostrar ícone Lucide
                       e.currentTarget.style.display = 'none'
                       const lucideIcon = e.currentTarget.nextElementSibling as HTMLElement
                       if (lucideIcon) {
@@ -108,17 +113,22 @@ export function Agendamentos() {
             <div>
               <h4 className="font-semibold mb-2">📅 Horários de Atendimento</h4>
               <p className="leading-relaxed">
-                Segunda a sexta: 7h às 17h<br />
-                Sábados: 7h às 12h<br />
+                Segunda a sexta: 7h às 17h  
+
+                Sábados: 7h às 12h  
+
                 Emergências: 24h
               </p>
             </div>
             <div>
               <h4 className="font-semibold mb-2">📋 Documentos Necessários</h4>
               <p className="leading-relaxed">
-                • RG e CPF<br />
-                • Cartão SUS<br />
-                • Comprovante de residência<br />
+                • RG e CPF  
+
+                • Cartão SUS  
+
+                • Comprovante de residência  
+
                 • Encaminhamento médico (quando necessário)
               </p>
             </div>
