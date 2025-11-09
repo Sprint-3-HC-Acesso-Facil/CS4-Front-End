@@ -35,7 +35,7 @@ export function AgendarConsulta() {
     { value: 'dermatologia', label: 'Dermatologia' },
     { value: 'endocrinologia', label: 'Endocrinologia' },
     { value: 'ginecologia', label: 'Ginecologia' },
-    { value: 'neurologia', label: 'Neurologia' },
+    { value: 'neurologia', label: 'Neuroloia' },
     { value: 'oftalmologia', label: 'Oftalmologia' },
     { value: 'ortopedia', label: 'Ortopedia' },
     { value: 'pediatria', label: 'Pediatria' },
