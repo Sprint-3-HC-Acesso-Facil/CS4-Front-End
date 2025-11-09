@@ -1,0 +1,126 @@
+/* Estilos para o avatar do assistente com GIF/imagem estática */
+.avatar-assistente {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    background-color: #005e91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar-assistente img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para o assistente flutuante */
+.assistente-flutuante {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #005e91;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    min-width: 250px;
+}
+
+.assistente-flutuante:hover {
+    background-color: #0078d7;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.assistente-texto {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 15px;
+    white-space: nowrap;
+}
+
+/* Estilos para o avatar no chat */
+.avatar-bot {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #005e91;
+}
+
+.avatar-bot img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Estilos para o link de ajuda no header */
+.ajuda-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.ajuda {
+    display: flex;
+    align-items: center;
+    background-color: #005e91;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    font-weight: bold;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+.ajuda:hover {
+    background-color: #0078d7;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .assistente-flutuante {
+        padding: 10px 15px;
+        min-width: 200px;
+    }
+    
+    .avatar-assistente {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .avatar-bot {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .assistente-texto {
+        font-size: 16px;
+    }
+    
+    .ajuda {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}

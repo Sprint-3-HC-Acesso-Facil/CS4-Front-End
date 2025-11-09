@@ -1,0 +1,244 @@
+.integrante-card {
+    display: flex;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.5s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.integrante-card:nth-child(1) { animation-delay: 0.1s; }
+.integrante-card:nth-child(2) { animation-delay: 0.2s; }
+
+.integrante-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background-color: #005e91;
+    transition: width 0.3s ease;
+}
+
+.integrante-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.integrante-card:hover::before {
+    width: 10px;
+}
+
+.integrante-foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #dbeec2;
+    margin-right: 30px;
+    overflow: hidden;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #ffffff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.integrante-foto::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, rgba(0,94,145,0.2) 0%, rgba(219,238,194,0.2) 100%);
+    border-radius: 50%;
+}
+
+.integrante-card:hover .integrante-foto {
+    transform: scale(1.05);
+}
+
+.integrante-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.integrante-info {
+    flex: 1;
+}
+
+.integrante-info h3 {
+    color: #005e91;
+    margin-bottom: 10px;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.integrante-info h3::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #005e91;
+    transition: width 0.3s ease;
+}
+
+.integrante-card:hover .integrante-info h3::after {
+    width: 100%;
+}
+
+.integrante-cargo {
+    font-weight: bold;
+    margin-bottom: 8px;
+    color: #333;
+    font-size: 18px;
+    display: inline-block;
+    background-color: rgba(219,238,194,0.3);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.integrante-rm {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.integrante-descricao {
+    line-height: 1.6;
+    color: #444;
+    font-size: 16px;
+}
+
+.projeto-info {
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+    animation: fadeIn 0.5s forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+
+.projeto-info::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: linear-gradient(to right, #005e91, #dbeec2);
+}
+
+.projeto-info p {
+    margin-bottom: 20px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #333;
+}
+
+.projeto-info p:last-child {
+    margin-bottom: 0;
+}
+
+.integrantes-container h2 {
+    color: #005e91;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.integrantes-container h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 4px;
+    background: linear-gradient(to right, #005e91, #dbeec2);
+    border-radius: 2px;
+}
+
+.tecnologias-lista {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tecnologia-tag {
+    background-color: #005e91;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+@media (max-width: 768px) {
+    .integrante-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px;
+    }
+    
+    .integrante-foto {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 120px;
+        height: 120px;
+    }
+    
+    .integrante-info h3::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+    .integrante-card:hover .integrante-info h3::after {
+        width: 80%;
+    }
+    
+    .integrante-card::before {
+        width: 100%;
+        height: 5px;
+        top: 0;
+        left: 0;
+    }
+    
+    .integrante-card:hover::before {
+        height: 8px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,177 @@
+/* Estilos para o avatar humano animado */
+.avatar-humano {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #005e91;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Rosto do avatar */
+.avatar-rosto {
+    width: 32px;
+    height: 32px;
+    background-color: #f5d0b0; /* Tom de pele */
+    border-radius: 50% 50% 45% 45%;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Cabelo do avatar */
+.avatar-cabelo {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background-color: #005e91;
+    border-radius: 50% 50% 0 0;
+}
+
+/* Olhos do avatar */
+.avatar-olhos {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.avatar-olho {
+    width: 5px;
+    height: 5px;
+    background-color: #333;
+    border-radius: 50%;
+    position: relative;
+}
+
+.avatar-olho::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    width: 7px;
+    height: 2px;
+    background-color: #005e91;
+    border-radius: 2px;
+}
+
+/* Boca do avatar */
+.avatar-boca {
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 3px;
+    background-color: #c0392b;
+    border-radius: 2px;
+}
+
+.falando .avatar-boca {
+    animation: falar 0.3s infinite;
+    height: 5px;
+}
+
+/* Animações */
+@keyframes piscar {
+    0%, 96%, 100% { transform: scaleY(1); }
+    98% { transform: scaleY(0.1); }
+}
+
+@keyframes falar {
+    0% { transform: translateX(-50%) scaleX(1); }
+    50% { transform: translateX(-50%) scaleX(0.6); }
+    100% { transform: translateX(-50%) scaleX(1); }
+}
+
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Animação dos olhos */
+.avatar-olho {
+    animation: piscar 4s infinite;
+}
+
+/* Animação do avatar completo */
+.avatar-humano.ativo {
+    animation: pulsar 1.5s infinite;
+}
+
+/* Estilos para o assistente flutuante com avatar humano */
+.assistente-flutuante {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #005e91;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    max-width: 200px;
+}
+
+.assistente-flutuante:hover {
+    background-color: #0078d7;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.assistente-flutuante:hover .avatar-boca {
+    animation: falar 0.3s infinite;
+}
+
+.assistente-texto {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+/* Estilos para o avatar no chat */
+.avatar-bot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #005e91;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .assistente-flutuante {
+        padding: 8px 12px;
+    }
+    
+    .avatar-humano {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .avatar-rosto {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .assistente-texto {
+        font-size: 12px;
+    }
+}

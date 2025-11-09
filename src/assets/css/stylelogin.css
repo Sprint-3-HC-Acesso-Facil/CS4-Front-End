@@ -1,0 +1,102 @@
+* {
+box-sizing: border-box;
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+body {
+background: linear-gradient(to bottom, #dbeec2 10%, #005e91 90%);
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 10px 30px;
+background-color: #dbeec2;
+}
+
+.logo {
+height: 50px;
+}
+
+.ajuda {
+display: flex;
+align-items: center;
+gap: 10px;
+font-size: 14px;
+font-weight: bold;
+}
+
+.icone-ia {
+font-size: 24px;
+}
+
+main {
+flex: 1;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.login-container {
+display: flex;
+gap: 50px;
+background-color: transparent;
+padding: 40px;
+}
+
+.login-box {
+background: white;
+border-radius: 20px;
+padding: 30px;
+width: 250px;
+text-align: center;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.login-logo {
+height: 40px;
+margin-bottom: 10px;
+}
+
+.login-box input {
+width: 100%;
+padding: 10px;
+margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 8px;
+}
+
+.login-box .esqueci {
+display: block;
+margin-bottom: 15px;
+font-size: 12px;
+text-align: right;
+color: #0077cc;
+text-decoration: none;
+}
+
+.login-box button {
+background-color: #0077cc;
+color: white;
+border: none;
+padding: 10px;
+width: 100%;
+border-radius: 8px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.gov-logo {
+width: 120px;
+margin: 10px 0;
+}
+
+.gov-btn {
+background-color: #0077cc;
+}

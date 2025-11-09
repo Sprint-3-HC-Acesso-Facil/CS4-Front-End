@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-PZQCM4R');</script>
+        <!-- End Google Tag Manager -->    
+        <link href="/assets/25057660/css/bootstrap.css" rel="stylesheet">
+<link href="/css/site.css" rel="stylesheet">
+<link href="/assets/c0721a99/css/select2.min.css" rel="stylesheet">
+<link href="/assets/6225e68a/css/select2-addl.min.css" rel="stylesheet">
+<link href="/assets/6225e68a/css/select2-krajee-bs3.min.css" rel="stylesheet">
+<link href="/assets/3adc173d/css/kv-widgets.min.css" rel="stylesheet">
+<link href="/assets/c884494b/css/dependent-dropdown.min.css" rel="stylesheet">
+<script>window.s2options_3267a624 = {"themeCss":".select2-container--krajee-bs3","sizeCss":"","doReset":true,"doToggle":false,"doOrder":false};
+window.select2_d5d7a45a = {"allowClear":true,"theme":"krajee-bs3","width":"100%","placeholder":"Selecione","language":null};
+
+window.depdrop_0d622a79 = {"depends":["id-erp-project-type-modal-video"],"placeholder":"Selecione","url":"\/video\/get-erp-utilization","allowClear":true};
+
+window.select2_1c6163d0 = {"theme":"krajee-bs3","width":"100%","language":null};
+
+window.depdrop_20154706 = {"depends":["id-erp-project-type-modal-video","id-erp-utilization-modal-video"],"placeholder":"Selecione","url":"\/video\/get-erp-format","allowClear":true};
+
+window.depdrop_e1848e70 = {"depends":["id-erp-project-type-modal-video","id-erp-utilization-modal-video","id-erp-format-modal-video"],"placeholder":"Selecione","url":"\/video\/get-erp-description?booSD=0","allowClear":true};
+
+window.depdrop_fd283527 = {"depends":["id-erp-project-type-modal-folder"],"placeholder":"Selecione","url":"\/foto\/get-erp-utilization","allowClear":true};
+
+window.depdrop_85286ab3 = {"depends":["id-erp-project-type-modal-folder","id-erp-utilization-modal-folder"],"placeholder":"Selecione","url":"\/foto\/get-erp-format","allowClear":true};
+
+window.depdrop_06abcf09 = {"depends":["id-erp-project-type-modal-folder","id-erp-utilization-modal-folder","id-erp-format-modal-folder"],"placeholder":"Selecione","url":"\/foto\/get-erp-description","allowClear":true};
+
+window.depdrop_bcd72a68 = {"depends":["id-erp-project-type-modal"],"placeholder":"Selecione","url":"\/foto\/get-erp-utilization","allowClear":true};
+
+window.depdrop_a3432456 = {"depends":["id-erp-project-type-modal","id-erp-utilization-modal"],"placeholder":"Selecione","url":"\/foto\/get-erp-format","allowClear":true};
+
+window.depdrop_4076fb46 = {"depends":["id-erp-project-type-modal","id-erp-utilization-modal","id-erp-format-modal"],"placeholder":"Selecione","url":"\/foto\/get-erp-description","allowClear":true};
+</script>        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+        <link rel="shortcut icon" href="https://www.pulsarimagens.com.br/images/favicon.ico" type="image/x-icon" />
+        <link rel="alternate" href="https://www.pulsarimagens.com.br/" hreflang="x-default" />
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
+  		<meta charset="UTF-8">
+  		<meta name="view " content="width=device-width, initial-scale=1.0">
+  		<meta http-equiv="X-UA-Compatible" content="ie=edge,chrome=1">
+        <meta http-equiv="ClearType" content="true" />
+        <meta name="google-site-verification" content="1LzEdN8s1urhuQqBzx9g_geU9LR81LU1gADJrz_FYWQ" />
+        <meta property="og:site_name" content="Pulsar Imagens"/>
+        <meta property="og:title" content="Pulsar Imagens"/>
+        <meta property="og:type" content="website"/>
+        <meta property="og:image" content="facebook.png"/>
+        <meta property="og:url" content="https://pulsarimagens.com.br"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta name="robots" content="index" />
+        <meta name="googlebot" content="index">
+        <meta name="adopt-website-id" content="3df4d0cd-ba26-4e1b-a984-a0b96fa30ed2" />
+        <link rel="dns-prefetch" href="//www.google-analytics.com" />
+        <title> Pulsar Imagens | Banco imagens do Brasil</title>
+        <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet" as="font" crossorigin>
+        <link rel="stylesheet" href="https://www.pulsarimagens.com.br/css/search_grey_header.css?v3">
+        <link rel="stylesheet" href="https://www.pulsarimagens.com.br/css/search_yellow_header.css?v1">
+        <link rel="stylesheet" href="https://www.pulsarimagens.com.br/css/search_quem_somos.css">
+        <link rel="stylesheet" href="https://www.pulsarimagens.com.br/css/style.css?v1">
+        <link rel="stylesheet" href="https://www.pulsarimagens.com.br/css/site.css?v1">
+  		<link rel="stylesheet" href="https://www.pulsarimagens.com.br/css/notifIt.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  	    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" integrity="sha256-HtCCUh9Hkh//8U1OwcbD8epVEUdBvuI8wj1KtqMhNkI=" crossorigin="anonymous" />
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js"></script>
+        <!-- paypal -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <!-- paypal -->
+        <!-- LGPD -->
+        <script src="//tag.goadopt.io/injector.js?website_code=3df4d0cd-ba26-4e1b-a984-a0b96fa30ed2" class="adopt-injector"></script>
+        <script>window.adoptHideAfterConsent = true;</script>
+        <!-- LGPD -->
+	</head>
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PZQCM4R" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+        	<header id="main-header" >
+		<div class="container no-cf">
+      		<button class="hamburguer">
+        		<span></span>
+        		<span></span>
+        		<span></span>
+      		</button>
+			<a href="/" class="logo"><img src="https://www.pulsarimagens.com.br/img/logo.png" alt="Pulsar Imagens" weight="218" height="40"></a>
+			<a href="/cliente/carrinho" class="cart -mobile"><i class="icon -cart"></i> Carrinho</a>
+			<div class="top-menu">
+			    	<div class="left">
+							<a href="/cliente/carrinho" class="cart"><i class="icon -cart"></i> Carrinho</a>
+							<a href="/cliente/ftp?projeto=Todos" class="ftp"><i class="material-icons">swap_vert</i>FTP </a>
+					<div class="language">
+	            		<span class="label" id="label-show-language">
+                            Português | Inglês                            <i class="icon -arrow-down"></i>
+                        </span>
+	            		<ul class="submenu">
+	              			<li class="set-language" id="pt">Português</li>
+	              			<li class="set-language" id="en">Inglês</li>
+	            		</ul>
+	         	 	</div>
+	        	</div>
+				<div class="right">
+		        	<button class="btn -default">Entrar</button>
+		        	<button class="btn -primary">Cadastre-se</button>
+	        	</div>
+				<div class="user-area">
+					<div class="wrapper">
+			            <div class="photo">
+			              <img src="/img/icons/avatar/photo-placeholder.png" alt="Foto de perfil">
+			            </div>
+			            <div class="name">
+			              <span>Olá, </span>
+			            </div>
+		          	</div>
+		          	<ul class="user-menu">
+		            	<li class="user-menu-logged"><a href="/cliente/download?anterior-data=21/05/2025&depois-data=01/05/2025&tipo-download=0&colaborador=&pagina=1&codigo-imagem=0" title="Downloads">Downloads</a></li>
+		            									            		<li class="user-menu-logged"><a href="/cliente/ftp?projeto=Todos" title="FTP">FTP</a></li>
+		            			            			            			            	<li class="user-menu-logged"><a href="/cliente/perfil" title="Perfil">Perfil</a></li>
+		            	<li class="user-menu-logged"><a href="/home/sair" title="Sair">Sair</a></li>
+		          	</ul>
+		        </div>
+			</div>
+		</div>
+	</header>
+	<div class="mobile-menu" >
+    	<div class="header">
+      		<a href="/" class="logo"><img src="../img/logo.png" alt="Pulsar Imagens"></a>
+	      	<div class="user">
+	        	<div class="photo">
+	          		<img src="/img/icons/avatar/photo-placeholder.png" alt="Foto de perfil">
+	        	</div>
+	        	<div class="name">
+	          		<span>Olá, </span>
+	        	</div>
+	      	</div>
+    	</div>
+		<div class="content">
+      		<div class="top">
+        		<nav class="user-menu" style="display: none">
+		          	<ul>
+		            	<li class="user-menu-logged"><a href="/cliente/download?anterior-data=21/05/2025&depois-data=01/05/2025&tipo-download=0&colaborador=&pagina=1&codigo-imagem=0" title="Downloads">Downloads</a></li>
+		            			            		<li class="user-menu-logged"><a href="/cliente/ftp?projeto=Todos" title="FTP">FTP</a></li>
+		            			            			            		<li class="user-menu-logged"><a href="/cliente/pedido" title="Pedidos">Pedidos</a></li>
+		            			            			            	<li class="user-menu-logged"><a href="/cliente/perfil" title="Perfil">Perfil</a></li>
+		            	<li class="user-menu-logged"><a href="/home/sair" title="Sair">Sair</a></li>
+		          	</ul>
+        		</nav>
+	        	<div class="languages">
+	        		<ul>
+	        			<li class="set-language-mobile" id="pt">Português</li>
+	        			<li class="set-language-mobile" id="en">English</li>
+	          		</ul>
+	        	</div>
+		        <div class="shopping-cart">
+		        	<a href="/cliente/carrinho" title="Carrinho">Carrinho</a>
+		        </div>
+			</div>
+	      	<div class="buttons">
+        		<button class="btn -default" id="btn-hamburguer-login">Entrar</button>
+        		<button class="btn -primary" id="btn-hamburguer-sign-in">Cadastre-se</button>
+      		</div>
+		</div>
+	</div>
+<div id="content" class="pageErro">
+	<header>
+		<div class="container no-cf">
+			<h1>Attention!</h1>
+		</div>
+	</header>
+	<section class="erro">
+		<div class="container no-cf">
+			<div class="erro-list">
+				<ul>
+					<li>
+						<div class="col-02">
+							<p class="info">Ocorreu um erro inesperado e não foi possível carregar a página! <br /><br />Caso tenha copiado o endereço, verifique se o mesmo está correto ou entre em contato com nossa equipe.<br /><br />Obrigado! <br /><br />Equipe Pulsar Imagens. </p>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+	</section>
+</div>	<footer id="main-footer">
+        <div class="newsletter">
+            <div class="container no-cf">
+                <p>
+                  Fique atualizado sobre as novidades da Pulsar Imagens:
+                </p>
+                <a href="https://www.facebook.com/pulsarimagens/" target="_blank" title="Facebook" class="fb"><i class="icon -facebook"></i></a>
+                <a href="https://www.instagram.com/pulsarimagens/" target="_blank" title="Instagram" class="ig"><i class="icon -instagram"></i></a>
+                <form>
+                    <input type="email" id="email-newsletter" placeholder="Cadastre-se na newsletter..." required >
+                     <button type="button" class="btn -primary" id="btn-newletter" name="Enviar">Enviar</button>
+                 </form>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="container">
+                    <nav>
+                        <a href="/quem-somos" title="Quem Somos">Quem Somos</a>
+                        <a href="/planos-precos" title="Planos e preços">Planos e preços</a>
+                        <a href="/duvidas" title="Dúvidas">Dúvidas</a>
+                        <a href="/contato" title="Contato">Contato</a>
+                    </nav>
+                    <p>
+                      <a href="/termos-condicoes">Termos e Condições</a> |
+                      <a href="/politica-de-privacidade">Política de Privacidade</a> |
+                      <a href="javascript:void" onclick="window.sendAdoptCommand('open')">Configuração de privacidade</a>
+                    </p>
+                    <p>&nbsp;</p>
+                    <p>
+                        <span>&copy; Pulsar Imagens  2025</span> - Todos os direitos <span>reservados.</span>
+                    </p>
+            </div>
+        </div>
+	    </footer>
+	    <div class="modal">
+		    <div class="modal-wrapper">
+
+                <div class="modal-content -change-rights-video">
+                    <div class="modal-header"><span class="close">&times;</span></div>
+                        <div class="modal-container">
+                            <h3 class="title">Alterar Características da Licença <br><br> Tipo de licença: Direito Controlado</h3>
+					        <fieldset>
+                                <div class="labeled -full">
+						            <div class="field-group">
+                                        <label>Título do projeto</label>
+                                        <input type="text" name="projectTitle" class="field-control" id="project-title-modal-video">
+                                        <input type="hidden" name="fileCode" class="field-control" id="file-code-modal-video">
+                                    </div>
+                                </div>
+                                <div class="field-group">
+                                    <label>Tipo de projeto</label>
+                                    <div class="kv-plugin-loading loading-id-erp-project-type-modal-video">&nbsp;</div><select id="id-erp-project-type-modal-video" class="form-control" name="erpProjectType" data-s2-options="s2options_3267a624" data-krajee-select2="select2_d5d7a45a" style="width: 100%; height: 1px; visibility: hidden;">
+<option value="">Selecione</option>
+<option value="2305">Publicidade</option>
+<option value="2307">Entretenimento</option>
+<option value="2303">Editorial</option>
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Utilização</label>
+                                    <div class="kv-plugin-loading loading-id-erp-utilization-modal-video">&nbsp;</div><select id="id-erp-utilization-modal-video" class="field-control form-control" name="ErpUtilization" data-krajee-depdrop="depdrop_0d622a79" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Formato</label>
+                                    <div class="kv-plugin-loading loading-id-erp-format-modal-video">&nbsp;</div><select id="id-erp-format-modal-video" class="field-control form-control" name="ErpFormat" data-krajee-depdrop="depdrop_20154706" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Tamanho</label>
+                                    <div class="kv-plugin-loading loading-id-erp-description-modal-video">&nbsp;</div><select id="id-erp-description-modal-video" class="field-control form-control" name="ErpDescription-video" data-krajee-depdrop="depdrop_e1848e70" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                                            </fieldset>
+                        </div>
+                    </div>
+                    <div class="modal-content -set-folder-rights">
+                            <div class="modal-header"><span class="close">&times;</span></div>
+                            <div class="modal-container">
+                                <h3 class="title" id="set-folder-rights">Adicionar arquivos por códigos <br><br> Tipo de licença: Direito Controlado</h3>
+					        <fieldset>
+                                <div class="labeled -full">
+						            <div class="field-group" id="str-filde-code-field-bottom"></div>
+                                </div>
+                                <div class="labeled -full">
+                                    <div class="field-group" id="str-filde-code-field-group">
+                                        <label>Códigos </label>
+                                        <input type="text" name="strFileCode" class="field-control" id="str-file-code-modal">
+                                        <input type="hidden" name="fileCode" class="field-control" id="file-code-modal">
+                                    </div>
+                                </div>
+                                <div class="labeled -full">
+                                    <div class="field-group">
+                                        <label>Título do projeto</label>
+                                        <input type="text" name="projectTitle" class="field-control" id="str-project-title-modal">
+                                    </div>
+                                </div>
+                                <div class="field-group">
+                                    <label>Tipo de projeto</label>
+                                    <div class="kv-plugin-loading loading-id-erp-project-type-modal-folder">&nbsp;</div><select id="id-erp-project-type-modal-folder" class="form-control" name="erpProjectTypeFolder" data-s2-options="s2options_3267a624" data-krajee-select2="select2_d5d7a45a" style="width: 100%; height: 1px; visibility: hidden;">
+<option value="">Selecione</option>
+<option value="2302">Editorial</option>
+<option value="2304">Publicidade</option>
+<option value="2306">Entretenimento</option>
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Utilização</label>
+                                    <div class="kv-plugin-loading loading-id-erp-utilization-modal-folder">&nbsp;</div><select id="id-erp-utilization-modal-folder" class="field-control form-control" name="ErpUtilizationFolder" data-krajee-depdrop="depdrop_fd283527" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Formato</label>
+                                    <div class="kv-plugin-loading loading-id-erp-format-modal-folder">&nbsp;</div><select id="id-erp-format-modal-folder" class="field-control form-control" name="ErpFormatFolder" data-krajee-depdrop="depdrop_85286ab3" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Tamanho</label>
+                                    <div class="kv-plugin-loading loading-id-erp-description-modal-folder">&nbsp;</div><select id="id-erp-description-modal-folder" class="field-control form-control" name="ErpDescriptionFolder" data-krajee-depdrop="depdrop_06abcf09" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="buttons">
+                                    <button type="submit" class="btn -primary" id="btn-set-rights">Finalizar</button>
+                                </div>
+                            </div>
+                        </fieldset>
+                </div>
+
+
+                <div class="modal-content -license-royalty-free">
+                    <div class="modal-header"><span class="close">&times;</span></div>
+                    <div class="modal-container">
+                        <h3 class="title">Tipo de licença: Royalty-Free</h3>
+                        <p>Num contrato de licença livre de royalties o licenciado adquire o direito de usar a obra em perpetuidade para qualquer fim previsto no contrato, sem para isso ter de pagar royalties adicionais àqueles pagos no momento da contratação. O licenciante, contudo, preserva o direito autoral sobre a obra e o licenciado em geral não poderá relicenciá-la para terceiros.</p>
+				    </div>
+			    </div>
+                <div class="modal-content -license-rights-controlled">
+                    <div class="modal-header"><span class="close">&times;</span></div>
+                    <div class="modal-container">
+                        <h3 class="title">Tipo de licença: Direito Controlado</h3>
+                        <p>Num contrato de licença livre de royalties o licenciado adquire o direito de usar a obra em perpetuidade para qualquer fim previsto no contrato, sem para isso ter de pagar royalties adicionais àqueles pagos no momento da contratação. O licenciante, contudo, preserva o direito autoral sobre a obra e o licenciado em geral não poderá relicenciá-la para terceiros.</p>
+				    </div>
+			    </div>
+			    <div class="modal-content -login">
+				    <div class="modal-header"><span class="close">&times;</span></div>
+				    <div class="modal-container -no-padding">
+					    <h3 class="title">Entre para continuar</h3>
+					    <form>
+						    <fieldset>
+							    <div class="wrapper">
+								    <div class="field-group">
+									    <input type="email" class="field-control -icon -email" id="login-str_login" placeholder="E-mail ou login" required>
+								    </div>
+								    <div class="field-group -rel">
+									    <input type="password" class="field-control -icon -lock" id="login-str_password" placeholder="Senha" required>
+									    <a href="javascript:;" title="Esqueci a senha">Esqueci a senha</a>
+								    </div>
+								    <div class="buttons">
+									    <button type="button" class="btn -primary" id="btn-login">Entrar</button>
+								    </div>
+							    </div>
+							    <div class="wrapper">
+								    <div class="no-profile">
+									    <h4>Você ainda não tem conta?</h4>
+									    <div class="buttons">
+										    <button type="button" class="btn -deactivated">Cadastre-se</button>
+									    </div>
+								    </div>
+							    </div>
+						    </fieldset>
+					    </form>
+				    </div>
+			    </div>
+                <div class="modal-content -login-ftp">
+				    <div class="modal-header"><span class="close">&times;</span></div>
+				    <div class="modal-container -no-padding">
+					    <h3 class="title">Acessar seu FTP</h3>
+					    <form>
+						    <fieldset>
+							    <div class="wrapper">
+								    <div class="field-group">
+									    <input type="email" class="field-control -icon -email" id="login-str_login-ftp" placeholder="E-mail ou login" required>
+								    </div>
+								    <div class="field-group -rel">
+									    <input type="password" class="field-control -icon -lock" id="login-str_password-ftp" placeholder="Senha" required>
+								    </div>
+								    <div class="buttons">
+									    <button type="button" class="btn -primary" id="btn-login-ftp">Entrar</button>
+								    </div>
+							    </div>
+						    </fieldset>
+					    </form>
+				    </div>
+			    </div>
+			    <div class="modal-content -forget-pass">
+				    <div class="modal-header"><span class="close">&times;</span></div>
+				    <div class="modal-container">
+					    <h3 class="title">Esqueceu a Senha</h3>
+					    <form>
+						    <fieldset>
+							    <div class="field-group">
+								    <input type="email" class="field-control -icon -email" id="field-forgot-password" placeholder="E-mail" required >
+							    </div>
+                                <div class="buttons">
+                                    <button type="button" id="btn-forgot-password" class="btn -primary">Enviar</button>
+                                </div>
+						    </fieldset>
+					    </form>
+				    </div>
+			    </div>
+			    <div class="modal-content -change-pass">
+				    <div class="modal-header"><span class="close">&times;</span></div>
+				    <div class="modal-container">
+					    <h3 class="title" id="tittle-change-password">Alterar Senha de Acesso</h3>
+					    <form>
+						    <fieldset>
+							    <div class="field-group">
+								    <input type="password" class="field-control -icon -lock" id="change-str-old-password"  placeholder="Senha atual" required>
+							    </div>
+							    <div class="field-group">
+								    <input type="password" class="field-control -icon -lock" id="change-str-new-password"  placeholder="Nova senha" required>
+							    </div>
+							    <div class="field-group">
+								    <input type="password" class="field-control -icon -lock" id="change-str-confirm-password"  placeholder="Confirmar senha" required>
+							    </div>
+							    <div class="buttons">
+								    <button type="button" class="btn -primary" id="btn-change-password">Salvar</button>
+							    </div>
+						    </fieldset>
+					    </form>
+				    </div>
+			    </div>
+			    <div class="modal-content -register">
+				    <div class="modal-header"><span class="close">&times;</span></div>
+				    <div class="modal-container -no-padding">
+					    <h3 class="title">Cadastre-se</h3>
+					    <form id="signup">
+						    <fieldset>
+							    <div class="wrapper">
+								    <div class="field-group">
+									    <input type="text" class="field-control -icon -user" siqatrib="firstname" id="register-str_name" placeholder="Nome" required>
+								    </div>
+                                    <div class="field-group">
+                                        <input type="text" class="field-control -icon -user" siqatrib="lastname" id="register-str_lastname" placeholder="Sobrenome" required>
+                                    </div>
+                                    <div class="field-group">
+                                        <input type="email" class="field-control -icon -email" siqatrib="email" id="register-str_email" placeholder="E-mail" required>
+                                    </div>
+                                    <div class="field-group">
+                                        <input type="password" class="field-control -icon -lock" id="register-str_password" placeholder="Senha" required>
+                                    </div>
+								    <div class="optins">
+									    <div class="holder-opt">
+										    <label class="custom-input -check">
+											    <input type="checkbox" name="optin-email" id="register-optin-email"> <span>Desejo receber novidades sobre a Pulsar Imagens</span>
+										    </label>
+									    </div>
+									    <div class="holder-opt">
+										    <label class="custom-input -check"> 
+                                                <input type="checkbox" name="optin-terms" id="register-boo_accept_term" checked> <span>Li e concordo com os <a href="/termos-condicoes" target="_blank">Termos de Uso do site</a></span>
+										    </label>
+									    </div>
+								    </div>
+								    <div class="buttons">
+									    <button type="button" class="btn -primary" id="btn-register" onclick="return gtag_report_conversion('http://www.pulsarimagens.com.br/erro/index?id=7')">Cadastrar</button>
+								    </div>
+							    </div>
+							    <div class="wrapper">
+								    <div class="no-profile">
+									    <h4>Já tem uma conta?</h4>
+									    <div class="buttons">
+										    <button type="button" class="btn -deactivated">Entrar</button>
+									    </div>
+								    </div>
+							    </div>
+						    </fieldset>
+					    </form>
+				    </div>
+			    </div>
+			    <div class="modal-content -user">
+				    <div class="modal-header"><span class="close">&times;</span></div>
+				    <div class="modal-container">
+					    <h3 class="title">Usuário</h3>
+					    <form action="/cliente/adicionar-colaborador" id="form-add-special-user" method="post">
+						    <fieldset>
+                                <div class="field-group">
+                                    <input type="text" class="field-control -icon -user" value="" id="field-special-user-prefix" name="siteSpecialUserPerfix[STR_SPECIAL_USER_PREFIX]" placeholder="Prefixo" disabled>
+                                </div>
+                                <div class="field-group">
+                                    <input type="text" class="field-control -icon -user" name="SiteUser[STR_LOGIN]" id="field-special-user-login" value="" placeholder="Login" disabled>
+                                </div>
+                                <div class="field-group">
+                                    <input type="text" class="field-control -icon -user" name="SiteUser[STR_NAME]" id="field-special-user-name" value="" placeholder="Nome">
+                                </div>
+                                <div class="field-group">
+                                    <input type="email" class="field-control -icon -email" name="SiteUser[STR_EMAIL]" id="field-special-user-email" value="" placeholder="E-mail">
+                                </div>
+                                <div class="field-group">
+                                    <input type="password" class="field-control -icon -lock" name="SiteUser[STR_PASSWORD]" id="field-special-user-password" value="" placeholder="Senha">
+                                </div>
+							    <div class="labeled">
+								    <div class="field-group">
+									    <label>Tipo de download</label>
+									    <select name="SiteUser[INT_FK_SITE_USER_DOWNLOAD_PERMISSION_ID]" id="field-special-downlaod-type" class="field-control">
+                                            <option value="1">Foto e vídeo</option>
+                                            <option value="2">Foto</option>
+                                            <option value="3">Sem permissão</option>
+                                            <option value="5"  selected >Somente FTP</option>
+									    </select>
+								    </div>
+                                    <div class="field-group">
+                                        <label>Limite de download</label>
+                                        <input type="text" class="field-control" name="SiteUser[INT_DOWNLOAD_LIMIT]" id="field-special-user-download" value="" >
+                                    </div>
+                                    <div class="field-group">
+                                        <label>Status</label>
+                                        <select name="SiteUser[BOO_STATUS]" id="field-special-status" class="field-control">
+                                            <option value="2">Inativo</option>
+                                            <option value="1">Ativo</option>
+                                        </select>
+                                    </div>
+                                    <div class="buttons">
+                                        <input type="hidden" value="" name="SiteUser[INT_FK_SITE_SPECIAL_USER_PREFIX_ID]" id="field-special-user-prefix-id">
+                                        <input type="hidden" value="0" name="SiteUser[INT_PK_ID_SITE_USER]" id="field-special-user-id">
+                                        <input type="hidden" value="" name="SiteUser[INT_FK_SITE_USER_LANGUAGE_ID]" id="field-special-user-language">
+                                        <input type="hidden" value="2" name="SiteUser[INT_FK_SITE_USER_TYPE_NEWSLETTER_ID]" id="field-special-user-type-newsletter">
+                                        <input type="hidden" value="1" name="SiteUser[BOO_NEWSLETTER]" id="field-special-user-newsletter">
+                                        <input type="hidden" value="1" name="SiteUser[BOO_SPECIAL_USER]" id="field-special-user-id">
+                                        <input type="hidden" value="1" name="SiteUser[INT_FK_SITE_TYPE_USER_ID]" id="field-special-user-type">
+                                        <input type="hidden" value="" name="SiteUser[STR_LOGIN]" id="field-special-user-prefixo-name">
+                                        <button type="submit" class="btn -primary" id="btn-register-special-user">Salvar</button>
+                                    </div>
+							    </div>
+						    </fieldset>
+					    </form>
+				    </div>
+			    </div>
+                <div class="modal-content -delete-user">
+                    <div class="modal-header"><span class="close">&times;</span></div>
+                    <div class="modal-container">
+                        <h3 class="title">Excluir Usuário</h3>
+                        <p class="warning">Tem certeza que deseja excluir o usuário "<span class="username"></span>"?</p>
+                        <div class="buttons">
+                            <button class="btn -deactivated">Não</button>
+                            <button class="btn -danger">Sim</button>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="modal-content -change-rights">
+                    <div class="modal-header"><span class="close">&times;</span></div>
+                        <div class="modal-container">
+                            <h3 class="title">Alterar Características da Licença <br><br> Tipo de licença: Direito Controlado</h3>
+					        <fieldset>
+                                <div class="labeled -full">
+                                    <div class="field-group">
+                                        <label>Título do projeto</label>
+                                        <input type="text" name="projectTitle" class="field-control" id="project-title-modal">
+                                        <input type="hidden" name="fileCode" class="field-control" id="file-code-modal">
+                                    </div>
+                                </div>
+                                <div class="field-group">
+                                    <label>Tipo de projeto</label>
+                                    <div class="kv-plugin-loading loading-id-erp-project-type-modal">&nbsp;</div><select id="id-erp-project-type-modal" class="form-control" name="erpProjectType" data-s2-options="s2options_3267a624" data-krajee-select2="select2_d5d7a45a" style="width: 100%; height: 1px; visibility: hidden;">
+<option value="">Selecione</option>
+<option value="2302">Editorial</option>
+<option value="2304">Publicidade</option>
+<option value="2306">Entretenimento</option>
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Utilização</label>
+                                    <div class="kv-plugin-loading loading-id-erp-utilization-modal">&nbsp;</div><select id="id-erp-utilization-modal" class="field-control form-control" name="ErpUtilization" data-krajee-depdrop="depdrop_bcd72a68" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Formato</label>
+                                    <div class="kv-plugin-loading loading-id-erp-format-modal">&nbsp;</div><select id="id-erp-format-modal" class="field-control form-control" name="ErpFormat" data-krajee-depdrop="depdrop_a3432456" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                <div class="field-group">
+                                    <label>Tamanho</label>
+                                    <div class="kv-plugin-loading loading-id-erp-description-modal">&nbsp;</div><select id="id-erp-description-modal" class="field-control form-control" name="ErpDescription" data-krajee-depdrop="depdrop_4076fb46" data-s2-options="s2options_3267a624" data-krajee-select2="select2_1c6163d0" style="width: 100%; height: 1px; visibility: hidden;">
+
+</select>                                </div>
+                                                            </fieldset>
+                        </div>
+                        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="modal-content -change-royalt-free">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+        </div>
+        <div class="modal-container">
+          <h3 class="title">Alterar Características da Licença <br><br> Tipo de licença: Royalty-Free</h3>
+            <fieldset>
+              <div class="labeled -full">
+  							<div class="field-group">
+                  <input type="hidden" name="projectTitle" class="field-control" id="project-title-modal">
+                  <input type="hidden" name="fileCode" class="field-control" id="file-code-modal">
+                </div>
+              </div>
+              <div class="field-group">
+                <label class="custom-input -radio">
+    							<input type="radio" name="size" id-price="392" id-project="22" id-description="38" id-utilization="82" id-format="20" amount="57" class="royalt-free-radio">
+    							<div class="input"></div>
+    							<div class="desc">
+                    <p><label>Tamanho P</label> <strong>R$ 57,00</strong></p>
+    							</div>
+    						</label>
+              </div>
+              <div class="field-group">
+                <label class="custom-input -radio">
+    							<input type="radio" name="size" id-price="393" id-project="22" id-description="39" id-utilization="82" id-format="20" amount="114" class="royalt-free-radio">
+    							<div class="input"></div>
+    							<div class="desc">
+                    <p><label>Tamanho M</label> <strong>R$ 114,00</strong></p>
+    							</div>
+    						</label>
+							</div>
+              <div class="field-group">
+                <label class="custom-input -radio">
+    							<input type="radio" name="size" id-price="394" id-project="22" id-description="40" id-utilization="82"  id-format="20" amount="171" class="royalt-free-radio">
+    							<div class="input"></div>
+    							<div class="desc">
+                    <p><label>Tamanho G</Label> <strong>R$ 171,00</strong></p>
+    							</div>
+    						</label>
+              </div>
+                          </fieldset>
+				</div>
+			</div>
+			<div class="modal-content -ftp">
+				<div class="modal-header">
+					<span class="close">&times;</span>
+				</div>
+                <div class="modal-container">
+                    <h3 class="title">
+                        FTP                    </h3>
+                                        </div>
+			</div>
+		</div>
+	</div>
+	<script src="/assets/55227e20/jquery.js"></script>
+<script src="/assets/de8ed30c/yii.js"></script>
+<script src="/assets/c0721a99/js/select2.full.min.js"></script>
+<script src="/assets/6225e68a/js/select2-krajee.min.js"></script>
+<script src="/assets/3adc173d/js/kv-widgets.min.js"></script>
+<script src="/assets/c884494b/js/dependent-dropdown.min.js"></script>
+<script src="/assets/24ece60f/js/depdrop.min.js"></script>
+<script>jQuery(function ($) {
+jQuery&&jQuery.pjax&&(jQuery.pjax.defaults.maxCacheLength=0);
+if (jQuery('#id-erp-project-type-modal-video').data('select2')) { jQuery('#id-erp-project-type-modal-video').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-project-type-modal-video').select2(select2_d5d7a45a)).done(initS2Loading('id-erp-project-type-modal-video','s2options_3267a624'));
+
+if (jQuery('#id-erp-utilization-modal-video').data('depdrop')) { jQuery('#id-erp-utilization-modal-video').depdrop('destroy'); }
+jQuery('#id-erp-utilization-modal-video').depdrop(depdrop_0d622a79);
+
+if (jQuery('#id-erp-utilization-modal-video').data('select2')) { jQuery('#id-erp-utilization-modal-video').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-utilization-modal-video').select2(select2_1c6163d0)).done(initS2Loading('id-erp-utilization-modal-video','s2options_3267a624'));
+
+initDepdropS2('id-erp-utilization-modal-video','Loading ...');
+if (jQuery('#id-erp-format-modal-video').data('depdrop')) { jQuery('#id-erp-format-modal-video').depdrop('destroy'); }
+jQuery('#id-erp-format-modal-video').depdrop(depdrop_20154706);
+
+if (jQuery('#id-erp-format-modal-video').data('select2')) { jQuery('#id-erp-format-modal-video').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-format-modal-video').select2(select2_1c6163d0)).done(initS2Loading('id-erp-format-modal-video','s2options_3267a624'));
+
+initDepdropS2('id-erp-format-modal-video','Loading ...');
+if (jQuery('#id-erp-description-modal-video').data('depdrop')) { jQuery('#id-erp-description-modal-video').depdrop('destroy'); }
+jQuery('#id-erp-description-modal-video').depdrop(depdrop_e1848e70);
+
+if (jQuery('#id-erp-description-modal-video').data('select2')) { jQuery('#id-erp-description-modal-video').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-description-modal-video').select2(select2_1c6163d0)).done(initS2Loading('id-erp-description-modal-video','s2options_3267a624'));
+
+initDepdropS2('id-erp-description-modal-video','Loading ...');
+if (jQuery('#id-erp-project-type-modal-folder').data('select2')) { jQuery('#id-erp-project-type-modal-folder').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-project-type-modal-folder').select2(select2_d5d7a45a)).done(initS2Loading('id-erp-project-type-modal-folder','s2options_3267a624'));
+
+if (jQuery('#id-erp-utilization-modal-folder').data('depdrop')) { jQuery('#id-erp-utilization-modal-folder').depdrop('destroy'); }
+jQuery('#id-erp-utilization-modal-folder').depdrop(depdrop_fd283527);
+
+if (jQuery('#id-erp-utilization-modal-folder').data('select2')) { jQuery('#id-erp-utilization-modal-folder').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-utilization-modal-folder').select2(select2_1c6163d0)).done(initS2Loading('id-erp-utilization-modal-folder','s2options_3267a624'));
+
+initDepdropS2('id-erp-utilization-modal-folder','Loading ...');
+if (jQuery('#id-erp-format-modal-folder').data('depdrop')) { jQuery('#id-erp-format-modal-folder').depdrop('destroy'); }
+jQuery('#id-erp-format-modal-folder').depdrop(depdrop_85286ab3);
+
+if (jQuery('#id-erp-format-modal-folder').data('select2')) { jQuery('#id-erp-format-modal-folder').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-format-modal-folder').select2(select2_1c6163d0)).done(initS2Loading('id-erp-format-modal-folder','s2options_3267a624'));
+
+initDepdropS2('id-erp-format-modal-folder','Loading ...');
+if (jQuery('#id-erp-description-modal-folder').data('depdrop')) { jQuery('#id-erp-description-modal-folder').depdrop('destroy'); }
+jQuery('#id-erp-description-modal-folder').depdrop(depdrop_06abcf09);
+
+if (jQuery('#id-erp-description-modal-folder').data('select2')) { jQuery('#id-erp-description-modal-folder').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-description-modal-folder').select2(select2_1c6163d0)).done(initS2Loading('id-erp-description-modal-folder','s2options_3267a624'));
+
+initDepdropS2('id-erp-description-modal-folder','Loading ...');
+if (jQuery('#id-erp-project-type-modal').data('select2')) { jQuery('#id-erp-project-type-modal').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-project-type-modal').select2(select2_d5d7a45a)).done(initS2Loading('id-erp-project-type-modal','s2options_3267a624'));
+
+if (jQuery('#id-erp-utilization-modal').data('depdrop')) { jQuery('#id-erp-utilization-modal').depdrop('destroy'); }
+jQuery('#id-erp-utilization-modal').depdrop(depdrop_bcd72a68);
+
+if (jQuery('#id-erp-utilization-modal').data('select2')) { jQuery('#id-erp-utilization-modal').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-utilization-modal').select2(select2_1c6163d0)).done(initS2Loading('id-erp-utilization-modal','s2options_3267a624'));
+
+initDepdropS2('id-erp-utilization-modal','Loading ...');
+if (jQuery('#id-erp-format-modal').data('depdrop')) { jQuery('#id-erp-format-modal').depdrop('destroy'); }
+jQuery('#id-erp-format-modal').depdrop(depdrop_a3432456);
+
+if (jQuery('#id-erp-format-modal').data('select2')) { jQuery('#id-erp-format-modal').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-format-modal').select2(select2_1c6163d0)).done(initS2Loading('id-erp-format-modal','s2options_3267a624'));
+
+initDepdropS2('id-erp-format-modal','Loading ...');
+if (jQuery('#id-erp-description-modal').data('depdrop')) { jQuery('#id-erp-description-modal').depdrop('destroy'); }
+jQuery('#id-erp-description-modal').depdrop(depdrop_4076fb46);
+
+if (jQuery('#id-erp-description-modal').data('select2')) { jQuery('#id-erp-description-modal').select2('destroy'); }
+jQuery.when(jQuery('#id-erp-description-modal').select2(select2_1c6163d0)).done(initS2Loading('id-erp-description-modal','s2options_3267a624'));
+
+initDepdropS2('id-erp-description-modal','Loading ...');
+
+    $(document).on('click','#btn-newletter',function(){
+        var strEmail = $('#email-newsletter').val();
+        $('#btn-newletter').attr('disabled', true);
+            $.get(
+                '/ajax-save/set-newsletter',
+                {
+                    STR_EMAIL: strEmail
+                },
+                function(data)
+                {
+                    if(data)
+                    {
+                      $('.newsletter').html('<div class="container no-cf"><p>Obrigado por se cadastrar!</p></div>');
+                    }
+                    else
+                    {
+                      $('#email-newsletter').val('');
+                      $('#email-newsletter').attr('placeholder','O e-mail não pode ser cadastrado!');
+                    }
+                }
+            );
+        });
+        $(document).on('click', '#btn-forgot-password',function(){
+            var strEmail = $('#field-forgot-password').val();
+
+            if(strEmail == '')
+            {
+                errorForm('#field-forgot-password', 'Digite seu e-mail.', '');
+                $('#btn-forgot-password').removeAttr('disabled');
+            }
+            else
+            {
+              $('#btn-forgot-password').attr('disabled', true);
+              $.get(
+                '/ajax-save/forgot-password',
+                {
+                  STR_EMAIL: strEmail
+                },
+                function(data)
+                {
+                  if(data == '1')
+                    successForm('#field-forgot-password', 'Suas informações foram enviadas para seu e-mail.', '');
+                  else
+                    errorForm('#field-forgot-password', data, '');
+                  $('#btn-forgot-password').removeAttr('disabled');
+                }
+              );
+            }
+        });
+        $(document).on('mouseout', '#register-str_email', function(){
+          var strEmail = $('#register-str_email').val();
+          $.get(
+              '/ajax-return-value/check-login',
+              {
+                  STR_LOGIN: strEmail
+              },
+              function(data)
+              {
+                  if(data == true)
+                    errorForm('#register-str_email', strEmail +' já foi cadastrado anteriormente.', '');
+                  else
+                    cleanForm('#register-str_email', 'E-mail', strEmail);
+              }
+          );
+        });
+        $(document).on('click','#btn-register', function(){
+            var strName = $('#register-str_name').val();
+            var strLastName = $('#register-str_lastname').val();
+            var strEmail = $('#register-str_email').val();
+            var strPassword = $('#register-str_password').val();
+            var booNewsletter = ($('#register-optin-email').prop('checked') ? 1 : 0);
+            var booAcceptTerms = ($('#register-boo_accept_term').prop('checked') ? 1 : 0);
+            $('#btn-register').attr('disabled',true);
+            $.get(
+                '/ajax-save/new-user',
+                {
+                    STR_NAME: strName, STR_LASTNAME: strLastName, STR_EMAIL: strEmail, STR_PASSWORD: strPassword, BOO_NEWSLETTER: booNewsletter, BOO_ACCEPT_TERM: booAcceptTerms
+                },
+                function(data)
+                {
+                    if(data == 1)
+                    {
+                      closeModal();
+                      logged();
+                    }
+                    else
+                    {
+                        correctField('.field-control');
+                        var strId = '';
+                        var strMessage = '';
+                        $.each(data.split('|'), function( key, value )
+                        {
+                            if(key == 0)
+                                strId = '#register-'+value.toLowerCase();
+                            else
+                                strMessage = value;
+                        });
+                        errorForm(strId, strMessage, '');
+                        $('#btn-register').removeAttr('disabled');
+                    }
+                    
+                }
+            );
+        });
+        $(document).on('click', '#btn-login', function(){
+            console.log('aqui');
+            var strLogin = $('#login-str_login').val();
+            var strPassword = $('#login-str_password').val();
+            $('#btn-login').attr('disabled',true);
+            login(strLogin, strPassword);
+        });
+
+        function login(strLogin, strPassword)
+        {
+            $.get(
+                '/ajax-save/login',
+                {
+                    STR_LOGIN: strLogin, STR_PASSWORD: strPassword
+                },
+                function(data)
+                {
+                    if(data == 1)
+                    {
+
+                        correctField('.field-control');
+                        closeModal();
+                        logged();
+                    }
+                    else
+                    {
+                        errorForm('#login-str_login', 'E-mail ou login', '');
+                        errorForm('#login-str_password', 'Senha', '');
+                    }
+                    $('#btn-login').removeAttr('disabled');
+                }
+            );
+        }
+        
+        
+        $('#login-str_password, #login-str_login').on('keyup', function(e) {
+            if (e.keyCode == 13)
+            {
+                getLogin($('#login-str_login').val(), $('#login-str_password').val());
+            }
+        });
+        $('#login-str_login-ftp, #login-str_password-ftp').on('keyup', function(e) {
+            if (e.keyCode == 13)
+            {
+                getLogin($('#login-str_login-ftp').val(), $('#login-str_password-ftp').val());
+            }
+        });
+        function getLogin(strLogin, strPassword)
+        {
+           login(strLogin, strPassword);
+        }
+
+
+
+        $('.language').on('click','.set-language, .set-language-mobile',function()
+        {
+            setLanguage($(this).attr('id'));
+        });
+        $(document).on('click','set-language-mobile',function()
+        {
+            setLanguage($(this).attr('id'));
+        });
+        function setLanguage(strLanguage)
+        {
+            $.get(
+                '/ajax-save/language',
+                {
+                    strLanguage: strLanguage
+                },
+                function(data)
+                {
+                    location.reload();
+                }
+            );
+        }
+        $(document).on('click', '#btn-change-password', function(){
+
+          $('#btn-change-password').attr('disabled',true);
+            var strOldPass = $('#change-str-old-password').val();
+            var strNewPass = $('#change-str-new-password').val();
+            var strChkPass = $('#change-str-confirm-password').val();
+            if(checkChangePassword(strOldPass, strNewPass, strChkPass))
+            {
+                var booNewPass = checkFieldError(strNewPass, '#change-str-new-password', strChkPass, '#change-str-confirm-password');
+                var booChkPass = checkFieldError(strChkPass, '#change-str-confirm-password', strNewPass, '#change-str-new-password');
+                if(booNewPass && booChkPass && strOldPass == '')
+                {
+                    $.get(
+                        '/ajax-save/change-password',
+                        {
+                            STR_PASSWORD: strNewPass
+                        },
+                        function(data)
+                        {
+                            if(data)
+                            {
+                                $('#tittle-change-password').html('"Sua senha foi alterada com sucesso!');
+                                $('#tittle-change-password').attr('style', 'color: #5cb85c !important;');
+                            }
+                            else
+                            {
+                                $('#tittle-change-password').html('Ocorreu um erro e não foi possível alterar sua senha.');
+                                $('#tittle-change-password').attr('style', 'color: #d9534f !important;');
+                            }
+                            $('#change-str-old-password').val('');
+                            $('#change-str-new-password').val('');
+                            $('#change-str-confirm-password').val('');
+                        }
+                    );
+                }
+                else
+                {
+                    if(strOldPass != '')
+                        errorForm('#change-str-old-password', 'A senha digitado não é igual a senha atual.', '');
+                }
+            }
+            else
+            {
+                checkFieldError(strOldPass, '#change-str-old-password');
+                checkFieldError(strNewPass, '#change-str-new-password');
+                checkFieldError(strChkPass, '#change-str-confirm-password');
+            }
+            $('#btn-change-password').removeAttr('disabled');
+        });
+        $(document).on('click', '.close', function(){
+            $('#tittle-change-password').html('Alterar senha de acesso');
+            correctField('#tittle-change-password');
+            correctField('#change-str-old-password');
+            correctField('#change-str-new-password');
+            correctField('#change-str-confirm-password');
+            closeModal();
+        });
+        function successForm(strIdField, strMessage, strValue)
+        {
+            $(strIdField).val(strValue);
+            $(strIdField).attr('placeholder', strMessage);
+            $(strIdField).attr('style', 'border: 2px solid #5cb85c !important;');
+        }
+        function cleanForm(strIdField, strMessage, strValue)
+        {
+            $(strIdField).val(strValue);
+            $(strIdField).attr('placeholder', strMessage);
+            $(strIdField).removeAttr('style', 'border: 2px solid #5cb85c !important;');
+        }
+        function errorForm(strIdField, strMessage, strValue)
+        {
+            $(strIdField).val(strValue);
+            $(strIdField).attr('placeholder', strMessage);
+            $(strIdField).attr('style', 'border: 2px solid #d9534f !important;');
+            $(strIdField).focus();
+        }
+        function correctField(strIdOrClass)
+        {
+            $(strIdOrClass).removeAttr('style');
+        }
+        function closeModal()
+        {
+            $('.modal').attr('class','modal');
+        }
+        function logged()
+        {
+            location.reload();
+        }
+        function checkChangePassword(strOldPass, strNewPass, strChkPass)
+        {
+            if(strOldPass.length > 0 && strNewPass.length > 0 && strChkPass.length > 0)
+                return true;
+            else
+                return false;
+        }
+        function checkFieldError(strValue, strId, strValueCompare = '', strIdCompare = '')
+        {
+            if(strValue.length == 0)
+            {
+                errorForm(strId, 'O campo não pode estar vazio.', '');
+                return false;
+            }
+            else
+            {
+                correctField(strId);
+                if(strIdCompare != '')
+                {
+                    if(strValue != strValueCompare)
+                    {
+                        errorForm(strId, 'As senhas não são iguais.', '');
+                        errorForm(strIdCompare, 'As senhas não são iguais.', '');
+                        return false;
+                    }
+                }
+            }
+            return true;
+        }
+        $('.modal-container').on('click', '#btn-register-special-user', function(){
+          $('#btn-register-special-user').attr('disabled', true);
+          $('#btn-register-special-user').html('Salvando...');
+          $('#form-add-special-user').submit();
+        });
+
+});</script>    <script type="text/javascript" src="https://www.pulsarimagens.com.br/js/externals/jquery.mosaic.js"></script>
+    <script type="text/javascript" src="https://www.pulsarimagens.com.br/js/externals/jquery.mask.min.js"></script>
+    <script type="text/javascript" src="https://www.pulsarimagens.com.br/js/externals/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="https://www.pulsarimagens.com.br/js/main.js"></script>
+    <script type="text/javascript" src="https://www.pulsarimagens.com.br/js/notifIt.js"></script>
+    <script type="text/javascript"> var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"siq42b6a546879c6607254d6ad1e827272f499ac9b94a3b0a60baa9c95408e67e7f", values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);</script>
+    </body>
+</html>

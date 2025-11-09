@@ -1,0 +1,152 @@
+/* Estilos para o avatar animado do assistente */
+.avatar-assistente {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #005e91;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Cabeça do avatar */
+.avatar-cabeca {
+    width: 36px;
+    height: 36px;
+    background-color: white;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Olhos do avatar */
+.avatar-olhos {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.avatar-olho {
+    width: 6px;
+    height: 6px;
+    background-color: #005e91;
+    border-radius: 50%;
+    animation: piscar 4s infinite;
+}
+
+/* Boca do avatar */
+.avatar-boca {
+    position: absolute;
+    bottom: 10px;
+    width: 14px;
+    height: 4px;
+    background-color: #005e91;
+    border-radius: 2px;
+}
+
+.falando .avatar-boca {
+    animation: falar 0.3s infinite;
+    height: 5px;
+}
+
+/* Animações */
+@keyframes piscar {
+    0%, 96%, 100% { transform: scaleY(1); }
+    98% { transform: scaleY(0.1); }
+}
+
+@keyframes falar {
+    0% { transform: scaleX(1); }
+    50% { transform: scaleX(0.6); }
+    100% { transform: scaleX(1); }
+}
+
+@keyframes pulsar {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+/* Animação do avatar completo */
+.avatar-assistente.ativo {
+    animation: pulsar 1.5s infinite;
+}
+
+/* Estilos para o assistente flutuante com avatar animado */
+.assistente-flutuante {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+    background-color: #005e91;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+    max-width: 200px;
+}
+
+.assistente-flutuante:hover {
+    background-color: #0078d7;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+.assistente-flutuante:hover .avatar-boca {
+    animation: falar 0.3s infinite;
+}
+
+.assistente-texto {
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+    white-space: nowrap;
+}
+
+/* Estilos para o avatar no chat */
+.avatar-bot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+    overflow: hidden;
+    background-color: #005e91;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .assistente-flutuante {
+        padding: 8px 12px;
+    }
+    
+    .avatar-assistente {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .avatar-cabeca {
+        width: 26px;
+        height: 26px;
+    }
+    
+    .assistente-texto {
+        font-size: 12px;
+    }
+}
