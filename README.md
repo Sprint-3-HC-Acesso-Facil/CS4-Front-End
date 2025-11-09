@@ -25,6 +25,16 @@ O projeto foi estruturado com foco em modularidade, escalabilidade e manutençã
 
 ---
 
+### Link do Projeto no Vercel
+O projeto está hospedado e pode ser acessado via o seguinte link no Vercel:
+
+[**Acesse o Projeto no Vercel**](https://seu-projeto.vercel.app)
+
+### Link da API no Render
+A API do projeto está hospedada no Render e pode ser acessada pelo seguinte link:
+
+[**Acesse a API no Render**](https://hc-acesso-facil.onrender.com/)
+
 ## 🎥 Vídeo de Apresentação
 
 O vídeo de demonstração do projeto pode ser acessado através do link abaixo:
