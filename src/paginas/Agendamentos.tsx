@@ -8,7 +8,7 @@ export function Agendamentos() {
       icone: '/src/assets/image/icons/consulta-icon.png', 
       iconeLucide: Stethoscope,
       link: '/agendamentos/consulta',
-      descricao: 'Agende sua consulta médica com especialistas'
+      descricao: 'Agende sua consulta médica com especialistas',
       cor: 'bg-blue-50 hover:bg-blue-100 border-blue-200'
     },
     { 
