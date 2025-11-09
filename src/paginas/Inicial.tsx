@@ -8,7 +8,7 @@ export function Inicial() {
   const [senha, setSenha] = useState('')
   const [carregandoLogin, setCarregandoLogin] = useState(false)
 
-  // useEstadoLocal para lembrar último CPF usado (sem a senha por segurança)
+  // useEstadoLocal para lembrar último CPF usado (sem a senha por segurança
   const [ultimoCpf, setUltimoCpf] = useEstadoLocal('ultimo-cpf', '')
 
   // useNavegacao para navegação programática
