@@ -40,7 +40,7 @@ A API do projeto está hospedada no Render e pode ser acessada pelo seguinte lin
 O vídeo de demonstração do projeto pode ser acessado através do link abaixo:
 
 🔗 **Link do vídeo no YouTube:**  
-[https://youtu.be/HiElW7U_I60]
+[https://youtu.be/x_I84Z9up8o]
 
 ## 📂 Estrutura do Projeto
 
